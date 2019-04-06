@@ -7,12 +7,31 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_width="316dp"
+        android:layout_height="139dp"
+        android:text="Welcome to the Zombie Game!\n Do you have what it takes to survive?
+Find out now by pressing the start button!"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Now"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <!--<Button-->
+    <!--android:id="@+id/button2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Learn More"-->
+    <!--tools:layout_editor_absoluteX="255dp"-->
+    <!--tools:layout_editor_absoluteY="363dp" />-->
 
 </android.support.constraint.ConstraintLayout>
