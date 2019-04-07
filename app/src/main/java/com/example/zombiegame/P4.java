@@ -25,5 +25,6 @@ public class P4 extends AppCompatActivity {
 
     public void redHome(){
         Intent intent = new Intent(this, PIntro.class);
+        startActivity(intent);
     }
 }

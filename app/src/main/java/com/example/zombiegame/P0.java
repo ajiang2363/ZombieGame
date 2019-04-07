@@ -6,26 +6,26 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class P1 extends AppCompatActivity {
+public class P0 extends AppCompatActivity {
 
-    private Button C5;
-    private Button C6;
+    private Button C2;
+    private Button C3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_choice3);
-        C5 = (Button)findViewById(R.id.C5);
-        C6 = (Button)findViewById(R.id.C6);
+        setContentView(R.layout.activity_choice1);
+        C2 = (Button)findViewById(R.id.C2);
+        C3 = (Button)findViewById(R.id.C1);
 
-        C5.setOnClickListener(new View.OnClickListener() {
+        C2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 choice1();
             }
         });
 
-        C6.setOnClickListener(new View.OnClickListener() {
+        C3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 choice2();
@@ -34,11 +34,13 @@ public class P1 extends AppCompatActivity {
     }
 
     public void choice1(){
-        Intent intent = new Intent(this,P5.class);
+        Intent intent = new Intent(this, P2.class);
         startActivity(intent);
     }
+
     public void choice2(){
-        Intent intent = new Intent(this, P7.class);
+        Intent intent = new Intent(this, P1.class);
         startActivity(intent);
     }
+
 }

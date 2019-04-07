@@ -50,12 +50,12 @@
         android:text="A: Look for a weapon to fight"
         android:textColor="@android:color/holo_orange_dark"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/C3"
+        app:layout_constraintBottom_toTopOf="@+id/C1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/C3"
+        android:id="@+id/C1"
         android:layout_width="333dp"
         android:layout_height="72dp"
         android:layout_marginStart="39dp"
