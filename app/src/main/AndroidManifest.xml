@@ -16,9 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name = ".PIntro" />\
-        <activity android:name = ".P1" />\
-        <activity android:name=".P2" />\
+        <activity android:name = ".PIntro" />
+        <activity android:name=".P1"/>
+        <activity android:name=".P2"/>
+        <activity android:name=".P3"/>
+        <activity android:name=".P4">
+        </activity>
 
     </application>
 

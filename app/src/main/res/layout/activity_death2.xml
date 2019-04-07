@@ -16,7 +16,7 @@
         android:layout_marginEnd="188dp"
         android:layout_marginRight="188dp"
         android:layout_marginBottom="71dp"
-        android:text="HEAL: Choice 3"
+        android:text="LIBRARY: Choice 3"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/textView11"
@@ -33,7 +33,7 @@
         android:layout_marginEnd="11dp"
         android:layout_marginRight="11dp"
         android:layout_marginBottom="33dp"
-        android:text="Encounter hunters looting the store. They see your bitten arm and one of them shoots you."
+        android:text="Lock yourself in the records room with a set of cabinets, sleep there for the night, wake up craving brains."
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/textView14"
@@ -49,7 +49,7 @@
         android:layout_marginTop="34dp"
         android:layout_marginEnd="100dp"
         android:layout_marginRight="100dp"
-        android:text="YOU DIED... TRAGIC"
+        android:text="YOU ARE A ZOMBIE.. TRAGIC"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +57,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <Button
-        android:id="@+id/H1"
+        android:id="@+id/H2"
         android:layout_width="119dp"
         android:layout_height="76dp"
         android:layout_marginTop="161dp"
