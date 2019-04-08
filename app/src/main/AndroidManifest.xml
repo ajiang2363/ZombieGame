@@ -23,7 +23,12 @@
         <activity android:name=".P3"/>
         <activity android:name=".P4"/>
         <activity android:name=".P5"/>
-        <activity android:name=".P8">
+        <activity android:name=".P7"/>
+        <activity android:name=".P8"/>
+        <activity android:name=".P9"/>
+        <activity android:name=".P10"/>
+        <activity android:name=".P12"/>
+        <activity android:name=".P12food">
         </activity>
 
     </application>
