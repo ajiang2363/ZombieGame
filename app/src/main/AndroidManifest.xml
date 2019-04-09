@@ -28,7 +28,11 @@
         <activity android:name=".P9"/>
         <activity android:name=".P10"/>
         <activity android:name=".P12"/>
-        <activity android:name=".P12food">
+        <activity android:name=".P12food"/>
+        <activity android:name=".P15"/>
+        <activity android:name=".P16"/>
+        <activity android:name=".P17"/>
+        <activity android:name=".prizememe1">
         </activity>
 
     </application>

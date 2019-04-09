@@ -6,28 +6,28 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class PIntro extends AppCompatActivity {
+public class P10 extends AppCompatActivity {
 
-    private Button start;
-    private Button info;
+    private Button C11;
+    private Button C12;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_page1);
-        start = (Button)findViewById(R.id.START);
-        info = (Button)findViewById(R.id.button2);
+        setContentView(R.layout.activity_choice6);
+        C11 = (Button) findViewById(R.id.C11);
+        C12 = (Button) findViewById(R.id.C12);
 
-        start.setOnClickListener(new View.OnClickListener() {
+        C12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startgame();
+                choice2();
             }
         });
     }
 
-    public void startgame(){
-        Intent intent = new Intent(this, P0.class);
+    public void choice2(){
+        Intent intent = new Intent(this, P12.class);
         startActivity(intent);
     }
 }

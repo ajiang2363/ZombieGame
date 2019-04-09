@@ -6,26 +6,25 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class P5 extends AppCompatActivity {
-    private Button D3;
-    private Button C7;
+public class P12food extends AppCompatActivity {
+
+    private Button C15;
+    private Button C16;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_choice4);
+        setContentView(R.layout.activity_choice8);
+        C15 = (Button) findViewById(R.id.C15);
+        C16 = (Button) findViewById(R.id.C16);
 
-        D3 = (Button)findViewById(R.id.D3);
-        C7 = (Button)findViewById(R.id.C7);
-
-        D3.setOnClickListener(new View.OnClickListener() {
+        C15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 choice1();
             }
         });
-
-        C7.setOnClickListener(new View.OnClickListener() {
+        C16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 choice2();
@@ -35,12 +34,12 @@ public class P5 extends AppCompatActivity {
     }
 
     public void choice1(){
-        Intent intent = new Intent(this, P8.class);
+        Intent intent = new Intent(this, P15.class);
+        startActivity(intent);
+    }
+    public void choice2(){
+        Intent intent = new Intent(this, P16.class);
         startActivity(intent);
     }
 
-    public void choice2(){
-        Intent intent = new Intent(this,P7.class);
-        startActivity(intent);
-    }
 }

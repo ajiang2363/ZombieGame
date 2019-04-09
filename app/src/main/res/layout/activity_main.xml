@@ -18,14 +18,6 @@ Find out now by pressing the start button!"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.154" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Start Now"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="363dp" />
-
     <!--<Button-->
     <!--android:id="@+id/button2"-->
     <!--android:layout_width="wrap_content"-->
