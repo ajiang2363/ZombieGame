@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".autoInput">
+
+    <TextView
+        android:id="@+id/Seton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your options:"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/adStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adventure status"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/storyLine"
+        android:layout_width="350dp"
+        android:layout_height="168dp"
+        android:text="Storyline"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="357dp"
+        android:layout_height="56dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="359dp"
+        android:layout_height="56dp"
+        android:onClick="handleChoice1"
+        android:text="Button"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="359dp"
+        android:layout_height="49dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="481dp" />
+</android.support.constraint.ConstraintLayout>

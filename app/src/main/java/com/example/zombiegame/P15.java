@@ -26,10 +26,23 @@ public class P15 extends AppCompatActivity {
                 choice1();
             }
         });
+
+        C19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                choice3();
+            }
+        });
     }
 
     public void choice1(){
         Intent intent = new Intent(this,P17.class);
+        startActivity(intent);
+    }
+
+
+    public void choice3(){
+        Intent intent = new Intent(this,P19.class);
         startActivity(intent);
     }
 

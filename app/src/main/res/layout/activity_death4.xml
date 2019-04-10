@@ -32,7 +32,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="43dp"
         android:layout_marginRight="43dp"
-        android:text="NEW BUILDING: CHOICE 9"
+        android:text="NEW BUILDING"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"

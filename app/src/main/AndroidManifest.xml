@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".autoInput"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,25 +17,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name = ".PIntro" />
-        <activity android:name=".P0"/>
-        <activity android:name=".P1"/>
-        <activity android:name=".P2"/>
-        <activity android:name=".P3"/>
-        <activity android:name=".P4"/>
-        <activity android:name=".P5"/>
-        <activity android:name=".P7"/>
-        <activity android:name=".P8"/>
-        <activity android:name=".P9"/>
-        <activity android:name=".P10"/>
-        <activity android:name=".P12"/>
-        <activity android:name=".P12food"/>
-        <activity android:name=".P15"/>
-        <activity android:name=".P16"/>
-        <activity android:name=".P17"/>
-        <activity android:name=".prizememe1">
-        </activity>
-
+        <activity android:name=".PIntro" />
+        <activity android:name=".P0" />
+        <activity android:name=".P1" />
+        <activity android:name=".P2" />
+        <activity android:name=".P3" />
+        <activity android:name=".P4" />
+        <activity android:name=".P5" />
+        <activity android:name=".P7" />
+        <activity android:name=".P8" />
+        <activity android:name=".P9" />
+        <activity android:name=".P10" />
+        <activity android:name=".P12" />
+        <activity android:name=".P12food" />
+        <activity android:name=".P15" />
+        <activity android:name=".P16" />
+        <activity android:name=".P17" />
+        <activity android:name=".P19" />
+        <activity android:name=".prizememe1"></activity>
     </application>
 
 </manifest>

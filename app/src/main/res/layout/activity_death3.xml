@@ -32,7 +32,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="168dp"
         android:layout_marginRight="168dp"
-        android:text="SNEAK: Choice 8"
+        android:text="SNEAK"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
