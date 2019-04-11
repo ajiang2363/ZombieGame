@@ -34,6 +34,7 @@
         <activity android:name=".P16" />
         <activity android:name=".P17" />
         <activity android:name=".P19" />
+        <activity android:name=".P18"/>
         <activity android:name=".prizememe1"></activity>
     </application>
 

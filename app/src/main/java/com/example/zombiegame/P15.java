@@ -26,7 +26,12 @@ public class P15 extends AppCompatActivity {
                 choice1();
             }
         });
-
+        C18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                choice2();
+            }
+        });
         C19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,6 +45,10 @@ public class P15 extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void choice2(){
+        Intent intent = new Intent(this,P18.class);
+        startActivity(intent);
+    }
 
     public void choice3(){
         Intent intent = new Intent(this,P19.class);

@@ -10,60 +10,45 @@
         android:id="@+id/textView52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="254dp"
-        android:layout_marginRight="254dp"
-        android:text="Your options:"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginRight="159dp"
+        android:text="go in blind"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView50"
-        android:layout_width="wrap_content"
-        android:layout_height="36dp"
-        android:text="WENT IN BLIND: Choice 10"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <TextView
-        android:id="@+id/textView51"
-        android:layout_width="379dp"
-        android:layout_height="185dp"
-        android:text="Enter front door, go to the gym, friend goes to bathroom, you hear a scream and they run back yelling “Run!” you follow seeing a bloody horde of former teachers, you hear someone yell for help."
-        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView53"
+        android:layout_width="344dp"
+        android:layout_height="233dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:text="enter front door, go to the gym, friend goes to bathroom, you hear a scream and they run back yelling “Run!” you follow seeing a bloody horde of former teachers, you hear someone yell for help"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="71dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="363dp"
-        android:layout_height="82dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="375dp" />
-
-    <Button
-        android:id="@+id/button3"
+        android:id="@+id/C21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="277dp" />
+        android:text="ignore"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="369dp" />
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="361dp"
-        android:layout_height="67dp"
-        android:text="Switch"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="478dp" />
+    <Button
+        android:id="@+id/C20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go back"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="468dp" />
 </android.support.constraint.ConstraintLayout>
