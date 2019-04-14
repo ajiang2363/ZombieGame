@@ -23,6 +23,7 @@
         android:text="Adventure status"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp"
+        android:scrollbars= "vertical"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
@@ -33,6 +34,7 @@
         android:text="Storyline"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
+        android:scrollbars= "vertical"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="91dp" />
 
@@ -50,6 +52,7 @@
         android:layout_height="56dp"
         android:onClick="handleChoice1"
         android:text="Button"
+        android:scrollbars= "vertical"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="334dp" />
 
@@ -58,6 +61,8 @@
         android:layout_width="359dp"
         android:layout_height="49dp"
         android:text="Button"
+        android:scrollbars= "vertical"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="481dp" />
+
 </android.support.constraint.ConstraintLayout>
