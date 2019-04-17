@@ -8,7 +8,6 @@ public class Node extends AppCompatActivity {
     String choiceText1;
     String choiceText2;
     String choiceText3;
-    Node previous;
     Node choice1;
     Node choice2;
     Node choice3;
@@ -36,9 +35,6 @@ public class Node extends AppCompatActivity {
         return storyLine;
     }
 
-    public Node getPrevious(){
-        return previous;
-    }
     public Node getChoice1(){
         return choice1;
     }
@@ -49,9 +45,6 @@ public class Node extends AppCompatActivity {
         return choice3;
     }
 
-    public void setPrevious(Node previous){
-        this.previous = previous;
-    }
     public void setChoice1(Node choice){
         this.choice1 = choice;
     }

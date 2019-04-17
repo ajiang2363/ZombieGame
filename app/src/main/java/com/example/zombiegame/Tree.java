@@ -1,15 +1,17 @@
 package com.example.zombiegame;
 
-public class FillInNode {
+public class Tree {
 
     Node start;
+    Node current;
 
-    public FillInNode(){
+    public Tree(){
         this.start = NodeStart();
+        current = this.start;
         fillNode1();
     }
 
-    public void fillNode1(){
+    private void fillNode1(){
         Node c2 = Choice2();
         Node c1 = Choice1();
         start.setChoice1(c1);
@@ -87,8 +89,10 @@ public class FillInNode {
     public Node getStart(){
         return this.start;
     }
+    public Node getCurrent(){return this.current;}
+    public void setCurrent(Node node){this.current = node;}
 
-    public Node NodeStart(){
+    private Node NodeStart(){
         Node node = new Node(
                 "Quietly check the perimeter to escape",
                 "Look for a weapon to fight",
@@ -98,7 +102,7 @@ public class FillInNode {
         return node;
     }
 
-    public Node Choice1(){
+    private Node Choice1(){
         Node node = new Node(
                 "Head to nearby friend’s house",
                 "Head to library (bigger, safer building)",
@@ -108,7 +112,7 @@ public class FillInNode {
         return node;
     }
 
-    public Node Choice2(){
+    private Node Choice2(){
         Node node = new Node(
                 "Head to the convenience store (treat wound with a first aid kit)",
                 "Head to the library (bigger, safer building)",
@@ -118,27 +122,27 @@ public class FillInNode {
         return node;
     }
 
-    public Node Choice3(){
+    private Node Choice3(){
         Node node = new Node(
                 "Restart",
-                "Home",
+                null,
                 null,
                 "Encounter hunters looting the store, they see your bitten arm and one of them shoots you. You died... Tragic"
         );
         return node;
     }
 
-    public Node Choice4(){
+    private Node Choice4(){
         Node node = new Node(
                 "Restart",
-                "Home",
+                null,
                 null,
                 "Lock yourself in the records room with a set of cabinets, sleep there for the night, wake up craving brains. You died... Tragic"
         );
         return node;
     }
 
-    public Node Choice5(){
+    private Node Choice5(){
         Node node = new Node(
                 "Run",
                 "Sneak past",
@@ -148,7 +152,7 @@ public class FillInNode {
         return node;
     }
 
-    public Node Choice6(){
+    private Node Choice6(){
         Node node = new Node(
                 "Block door with cabinets",
                 "Block door with table",
@@ -158,7 +162,7 @@ public class FillInNode {
         return node;
     }
 
-    public Node Choice7(){
+    private Node Choice7(){
         Node node = new Node(
                 "Head to new building",
                 "Figure out how to get to friend’s house",
@@ -168,27 +172,27 @@ public class FillInNode {
         return node;
     }
 
-    public Node Choice8(){
+    private Node Choice8(){
         Node node = new Node(
                 "Restart",
-                "Home",
+                null,
                 null,
                 "You trip on a tree root and the zombies hear you and attack while you try to get up, you get eaten. You died... Tragic"
         );
         return node;
     }
 
-    public Node Choice9(){
+    private Node Choice9(){
         Node node = new Node(
                 "Restart",
-                "Home",
+                null,
                 null,
                 "Encounter other survivors, a girl your age and 2 younger boys, they're suspicious of you, you try to sleep on another floor of the building and they kill you in your sleep. You died... Tragic"
         );
         return node;
     }
 
-    public Node Choice10(){
+    private Node Choice10(){
         Node node = new Node(
                 "Complain about hunger",
                 "Take friend’s advice (go to the library without breakfast)",
@@ -198,7 +202,7 @@ public class FillInNode {
         return node;
     }
 
-    public Node Choice11(){
+    private Node Choice11(){
         Node node = new Node(
                 "Try to sneak past",
                 "Try to run past",
@@ -208,7 +212,7 @@ public class FillInNode {
         return node;
     }
 
-    public Node Choice12(){
+    private Node Choice12(){
         Node node = new Node(
                 "Cereal",
                 "Toast",
@@ -218,7 +222,7 @@ public class FillInNode {
         return node;
     }
 
-    public Node Choice13(){
+    private Node Choice13(){
         Node node = new Node(
                 "Keep weapon",
                 "Give weapon ",
@@ -228,7 +232,7 @@ public class FillInNode {
         return node;
     }
 
-    public Node Choice15(){
+    private Node Choice15(){
         Node node = new Node(
                 "Stay together and check the perimeter",
                 "Go in blind",
@@ -238,27 +242,27 @@ public class FillInNode {
         return node;
     }
 
-    public Node Choice16(){
+    private Node Choice16(){
         Node node = new Node(
                 "Restart",
-                "Home",
+                null,
                 null,
                 "Encounter a zombie as you leave the library. Since you’re weaponless, you die, your friend survives and you see them run as you. You died... Tragic"
         );
         return node;
     }
 
-    public Node Choice17(){
+    private Node Choice17(){
         Node node = new Node(
                 "Restart",
-                "Home",
+                null,
                 null,
                 "You see zombies in the cafeteria and decide not to go to the school and head straight to the safe zone, arrive at safe zone, meet others. YOU WIN!"
         );
         return node;
     }
 
-    public Node Choice18(){
+    private Node Choice18(){
         Node node = new Node(
                 "Go back (sneak around/find a new way in)",
                 "Ignore",
@@ -268,30 +272,30 @@ public class FillInNode {
         return node;
     }
 
-    public Node Choice19(){
+    private Node Choice19(){
         Node node = new Node(
                 "Restart",
-                "Home",
+                null,
                 null,
                 "Check perimeter, both say all clear, go to cafeteria for food and get ambushed both die (friend checked cafeteria and missed it during perimeter checks). You died... Tragic"
         );
         return node;
     }
 
-    public Node Choice20(){
+    private Node Choice20(){
         Node node = new Node(
                 "Restart",
-                "Home",
+                null,
                 null,
                 "Head to the cafeteria, see the stranger who called for help getting eaten, run away, get ambushed and eaten. You died... Tragic"
         );
         return node;
     }
 
-    public Node Choice21(){
+    private Node Choice21(){
         Node node = new Node(
                 "Restart",
-                "Home",
+                null,
                 null,
                 "As you leave the building you run into a horde of Zombies with no escape. You get eaten but your friend survives. You died... Tragic"
         );
