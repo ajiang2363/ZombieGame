@@ -9,3 +9,11 @@ It got really repetitive and time consuming, so then a data structure with trees
 The each nodes has access to up to 3 nodes, indicating the next text to be displayed.
 The current node in the tree is always updated so that the text display would work as well as the option to access the next node.
 A parent node will soon be added in.
+
+
+Rachel J.
+
+created a pseudo-UML diagram to base the plot of the game on, learned Android Studio basics, including drag-and-drop xml and creating simple buttons
+will attempt node structure based code, right now everything I've done is hardcoded 
+will create images, most likely sprites 
+will expand the base plot
