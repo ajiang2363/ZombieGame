@@ -14,7 +14,8 @@ A parent node will soon be added in.
 
 Rachel J.
 
-created a pseudo-UML diagram to base the plot of the game on, learned Android Studio basics, including drag-and-drop xml and creating simple buttons
-will attempt node structure based code, right now everything I've done is hardcoded 
-will create images, most likely sprites 
-will expand the base plot
+created a pseudo-UML diagram to base the plot of the game on - 
+learned Android Studio basics, including drag-and-drop xml and creating simple buttons -
+will attempt node structure based code, right now everything I've done is hardcoded -
+will create images, most likely sprites -
+will expand the base plot to make the game overall larger (longer to play)
